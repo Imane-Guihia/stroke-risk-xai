@@ -13,6 +13,7 @@ Le projet suit une démarche expérimentale : **10 hypothèses** sur les donnée
 L'AVC est l'une des premières causes de décès et de handicap. Un modèle de dépistage n'est utile en clinique que si le médecin peut **comprendre et contrôler** ses prédictions. Le projet cherche donc à répondre à deux questions : quel modèle choisir, et que valent réellement ses explications ?
 
 **Données :** [Stroke Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) (Kaggle) : 5 110 patients, 10 variables, seulement **4,9 % d'AVC** (jeu très déséquilibré).
+Dataset créé par **fedesoriano** (Kaggle), usage pédagogique uniquement. Il est inclus dans ce dépôt avec crédit à l'auteur.
 
 ## Démarche
 
@@ -51,8 +52,9 @@ L'AVC est l'une des premières causes de décès et de handicap. Un modèle de d
 
 ```
 stroke-risk-xai/
-├── stroke_risk_xai.ipynb   # notebook complet (sorties conservées)
-├── figures/                # figures clés extraites du notebook
+├── stroke_risk_xai.ipynb              # notebook complet (sorties conservées)
+├── healthcare-dataset-stroke-data.csv # données (fedesoriano, Kaggle)
+├── figures/                           # figures clés extraites du notebook
 ├── requirements.txt
 └── README.md
 ```
@@ -62,7 +64,7 @@ stroke-risk-xai/
 Le notebook s'affiche directement sur GitHub, avec toutes ses sorties.
 
 Pour le réexécuter :
-1. Télécharger `healthcare-dataset-stroke-data.csv` depuis [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) et le placer à côté du notebook.
+1. Cloner le dépôt : le CSV est déjà à côté du notebook.
 2. Ouvrir le notebook dans **Google Colab** (importer le CSV dans l'espace Fichiers), ou en local :
    ```bash
    pip install -r requirements.txt
