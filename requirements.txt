@@ -1,0 +1,10 @@
+numpy
+pandas>=2.2
+scikit-learn>=1.6
+xgboost>=3.0
+shap>=0.54
+lime
+scipy
+matplotlib>=3.10
+seaborn
+jupyter
